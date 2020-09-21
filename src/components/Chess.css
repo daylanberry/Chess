@@ -1,0 +1,20 @@
+.board-container {
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+.board-row {
+  display: flex;
+  color: 'blue';
+}
+
+p.hi{
+  color: blue;
+}
+
+.error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

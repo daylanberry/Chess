@@ -1,0 +1,34 @@
+.border-peice {
+  border-style: inset;
+  height: 70px;
+  width: 10%;
+  font-size: 50px;
+}
+
+@media only screen and (max-height: 680px) {
+  .border-peice {
+    height: 60px;
+  }
+
+  .peice {
+    font-size: 30px;
+  }
+}
+
+.peice {
+  position: relative;
+  align-items: center;
+  left: 20px;
+}
+
+.red {
+  border-color: red
+}
+
+
+@media only screen and (max-width: 600px) {
+  .peice {
+    left: 0px;
+    font-size: 30px;
+  }
+}
